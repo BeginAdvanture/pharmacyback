@@ -5,7 +5,7 @@ let app = express();
 let port = process.env.PORT || 3000;
 
 app.use(express.static("public_html"));
-app.listen(port, function(){
+app.listen(3000, function(){
     console.log("HTML 서버 시작됨");
 });
 
